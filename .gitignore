@@ -11,3 +11,12 @@ venv/
 env/
 **/*.duckdb
 **/*.duckdb.wal
+seeds/
+seeds/raw_customers.csv
+seeds/raw_orders.csv
+seeds/raw_payments.csv
+jaffle_data/raw_customers.csv
+jaffle_data/raw_orders.csv
+jaffle_data/raw_payments.csv
+jaffle_data/*
+jaffle_data/
