@@ -26,7 +26,10 @@ seeds:
 models:
   jaffle_shop:
     +materialized: table
+    master_data:
+      +schema: master_data
     staging:
+      +schema: staging
       +materialized: view
       +docs:
         node_color: 'silver'
