@@ -20,6 +20,7 @@ clean-targets:
 require-dbt-version: [">=1.0.0", "<2.0.0"]
 
 seeds: 
+  +schema: seeds_data
   +docs:
     node_color: '#cd7f32'
 
